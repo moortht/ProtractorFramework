@@ -1,0 +1,26 @@
+{
+  "name": "automation3",
+  "version": "1.0.0",
+  "description": "Protractor",
+  "main": "config.js",
+  "scripts": {
+    "pretest": "npm run tsc",
+    "test": "protractor config.ts",
+    "tsc": "tsc"
+  },
+  "author": "Moorthy",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jasmine": "^3.5.9",
+    "@types/node": "^13.9.1",
+    "allure-commandline": "^2.13.0",
+    "jasmine": "^3.5.0",
+    "jasmine-allure-reporter": "^1.0.2",
+    "protractor": "^5.4.3",
+    "protractor-jasmine2-html-reporter": "0.0.7",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^4.2.1"
+  }
+}
