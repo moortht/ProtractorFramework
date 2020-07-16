@@ -25,5 +25,5 @@ exports.config = {
             resultsDir: 'allure-results'
         }));
         /*After complete the test use-- allure serve 'path of xml' --to get report on browser*/
-    }
+    },
 };
